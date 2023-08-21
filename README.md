@@ -1,19 +1,23 @@
 <div align="center" id="top">
-  <img width="400" src="images/logo.svg" alt="VRC Notify Bot Logo" />
+    <img width="400" src="images/logo.svg" alt="VRC Notify Bot Logo" />
 </div>
 
 
 <h1 align="center">VRC Notify Bot</h1>
 
 <p align="center">
-  <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/woolen-sheep/vrc-notify-bot/docker-build-push.yml">
-
-  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/woolen-sheep/vrc-notify-bot?style=social">
-
-  <img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/woolensheep/vrc-notify-bot">
-
-  <img alt="LICENSE" src="https://img.shields.io/github/license/woolen-sheep/vrc-notify-bot">
-
+    <a href="https://github.com/woolen-sheep/vrc-notify-bot/actions">
+        <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/woolen-sheep/vrc-notify-bot/docker-build-push.yml?style=flat-square">
+    </a>
+    <a href="https://github.com/woolen-sheep/vrc-notify-bot/stargazers">
+        <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/woolen-sheep/vrc-notify-bot?style=flat-square">
+    </a>
+    <a href="https://hub.docker.com/r/woolensheep/vrc-notify-bot">
+        <img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/woolensheep/vrc-notify-bot?style=flat-square">
+    </a>
+    <a href="/LICENSE">
+        <img alt="LICENSE" src="https://img.shields.io/github/license/woolen-sheep/vrc-notify-bot?style=flat-square">
+    </a>
 </p>
 
 ## Introduction
