@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "vrc-notify-bot"
+version = "0.1.0"
+description = "A discord bot to notify events in VRChat."
+authors = ["woolensheep 2460563632@qq.com"]
+license = "GPL3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+vrchatapi = "^1.11.1"
+discord-py = "^2.3.0"
+pydantic = "^2.0.2"
+pyyaml = "^6.0.1"
+
+[[tool.poetry.source]]
+name = "tuna"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+priority = "default"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+pyright = "^1.1.302"
+pylint = "^2.17.5"
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

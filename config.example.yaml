@@ -1,0 +1,22 @@
+discord_bot_token: your_discord_bot_token
+username: username
+password: password
+update_interval_minutes: 1
+# channels name and id
+channels:
+  notify_channel: 10000000000000000
+# friends to listen
+listen_friends:
+  # display name of your friend.
+  # can use substring of display name
+  # such as `woolen` for `woolensheep`
+  # but make sure this will not conflict
+  # with outher friends
+  woolensheep:
+    on_events:
+      - online
+      - status_change
+    to_channels:
+      # channel names defined above
+      - notify_channel
+
